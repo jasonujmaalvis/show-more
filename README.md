@@ -8,7 +8,7 @@ License: http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 
 <h2>Brief</h2>
 A neat little plugin that allows you to show / hide content (toggle) on clicking a trigger. Useful for areas of a website with restricted space but you still want to show a lot of content. Typically used on text blocks where you reveal a small portion of the text and show more on clicking a trigger.
 
-Very easy to implement please follow the instructions below:
+Very easy to implement please follow the instructions below. There is also a demo including but you can also check it out over on js fiddle http://jsfiddle.net/pnfh3/
 
 <h3>HTML</h3>
 
