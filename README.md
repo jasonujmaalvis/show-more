@@ -25,20 +25,26 @@ Very easy to implement please follow the instructions below:
 Add the following code to your JavaScript file typically on a document.ready:
 
 ```javascript
-$('.showmore').showMore({
-     speedDown: 300,
-     speedUp: 300,
-     height: '165px',
-     showText: 'Show more',
-     hideText: 'Show less'
-});
+(function($) {
+     $(document).ready(function() {
+          $('.showmore').showMore({
+               speedDown: 300,
+               speedUp: 300,
+               height: '165px',
+               showText: 'Show more',
+               hideText: 'Show less'
+          });
+     });
+})(jQuery);
 ```
 
 <h3>Minimum CSS styles</h3>
 
 To ensure consistency across multiple browsers please ensure the showmore block has a line-height specified. This will then provide a accurate height and display correctly.
 
+```css
 .showmore { line-height:18px; }
 .showmore_content { position:relative; overflow:hidden; }			
 .showmore_trigger { width:100%; height:45px; line-height:45px; cursor:pointer; }
 .showmore_trigger span { display:block; }
+```
