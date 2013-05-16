@@ -27,6 +27,7 @@ Add the following code to your JavaScript file typically on a document.ready:
 ```javascript
 (function($) {
      $(document).ready(function() {
+          
           $('.showmore').showMore({
                speedDown: 300,
                speedUp: 300,
@@ -34,6 +35,7 @@ Add the following code to your JavaScript file typically on a document.ready:
                showText: 'Show more',
                hideText: 'Show less'
           });
+          
      });
 })(jQuery);
 ```
