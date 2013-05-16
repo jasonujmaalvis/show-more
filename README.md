@@ -42,7 +42,7 @@ Add the following code to your JavaScript file typically on a document.ready:
 
 <h3>Minimum CSS styles</h3>
 
-To ensure consistency across multiple browsers please ensure the showmore block has a line-height specified. This will then provide a accurate height and display correctly.
+To ensure consistency across multiple browsers please ensure the showmore block has a line-height specified. This will then provide an accurate height and display correctly.
 
 ```css
 .showmore { line-height:18px; }
