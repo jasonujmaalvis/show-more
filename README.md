@@ -25,19 +25,17 @@ Very easy to implement please follow the instructions below. You can check it ou
 Add the following code to your JavaScript file typically on a document.ready:
 
 ```javascript
-(function($) {
-     $(document).ready(function() {
+$(document).ready(function() {
           
-          $('.showmore').showMore({
-               speedDown: 300,
-               speedUp: 300,
-               height: '165px',
-               showText: 'Show more',
-               hideText: 'Show less'
-          });
-          
+     $('.showmore').showMore({
+          speedDown: 300,
+          speedUp: 300,
+          height: '165px',
+          showText: 'Show more',
+          hideText: 'Show less'
      });
-})(jQuery);
+          
+});
 ```
 
 <h3>Minimum CSS styles</h3>
