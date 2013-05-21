@@ -2,7 +2,7 @@
 
 Author: Jason Alvis<br />
 Author Email: alvis.jason@gmail.com<br />
-Version: 1.0.1<br />
+Version: 1.0.3<br />
 License: Free General Public License (GPL)<br />
 
 <h2>Brief</h2>

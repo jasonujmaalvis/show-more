@@ -3,8 +3,8 @@
  * Author: Jason Alvis
  * Author Site: http://www.jasonalvis.com
  * License: Free General Public License (GPL)
- * Version: 1.0.1
- * Date: 14.06.2012
+ * Version: 1.0.3
+ * Date: 21.05.2013
  */
 (function($) {
 	$.fn.showMore = function (options) {
