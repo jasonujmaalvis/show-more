@@ -26,6 +26,6 @@
   "dependencies": {
     "jquery": ">=1.5"
   },
-  "docs": "https://github.com/jstayton/jquery-manifest/blob/master/README.md",
+  "docs": "https://github.com/jasonalvis/jquery-showmore/blob/master/README.md",
   "demo": "https://github.com/jasonalvis/jquery-showmore"
 }
