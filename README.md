@@ -8,7 +8,7 @@ License: Free General Public License (GPL)<br />
 <h2>Brief</h2>
 A neat little plugin that allows you to show / hide content (toggle) on clicking a trigger. Useful for areas of a website with restricted space but you still want to show a lot of content. Typically used on text blocks where you reveal a small portion of the text and show more on clicking a trigger.
 
-Very easy to implement please follow the instructions below. You can check it out over on js fiddle http://jsfiddle.net/pnfh3/1/ there is also a demo included in the zip.
+Very easy to implement please follow the instructions below. You can check it out over on js fiddle http://jsfiddle.net/pnfh3/2/ there is also a demo included in the zip.
 
 <h3>HTML</h3>
 
