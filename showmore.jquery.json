@@ -1,0 +1,31 @@
+{
+  "name": "showmore",
+  "version": "1.0.0",
+  "title": "Showmore",
+  "description": "A jQuery plugin that shows and hides content with a click event.",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "show",
+    "hide",
+    "showmore",
+    "showless",
+    "toggle"
+  ],
+  "homepage": "https://github.com/jasonalvis/jquery-showmore",
+  "author": {
+    "name": "Jason Alvis"
+  },
+  "bugs": "https://github.com/jasonalvis/jquery-showmore/issues",
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/jstayton/jquery-manifest/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.5"
+  },
+  "docs": "https://github.com/jstayton/jquery-manifest/blob/master/README.md",
+  "demo": "https://github.com/jasonalvis/jquery-showmore"
+}
