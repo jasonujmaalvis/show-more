@@ -32,20 +32,20 @@
 				$this.find('.showmore_content').css('height', options.height)
 											
 				// Append the showmore trigger within the showmore div			
-				$this.append('<div class="showmore_trigger"><span>' + options.showText + '</span></div>')
+				$this.append('<div class="showmore_trigger"><span class="more">' + options.showText + '</span><span class="less" style="display:none;">' + options.hideText + '</span></div>')
 											
 				// Showmore going down
-				$this.find('.showmore_trigger').on('click', function (){
-					$(this).addClass('less');
-					$(this).find('span').text( options.hideText );
-					$(this).parent().find('.showmore_content').animate({ height: $showMoreOrgHeight }, options.speedDown);
+				$this.find('.showmore_trigger').on('click', '.more', function (){
+                    $(this).hide();
+                    $(this).next().show();
+					$(this).parent().prev().animate({ height: $showMoreOrgHeight }, options.speedDown);
 				});
 											
 				// Showmore going up
-				$this.find('.showmore_trigger.less').on('click', function(){ 
-					$(this).removeClass('less');
-					$(this).find('span').text( options.showText );
-					$(this).parent().find('.showmore_content').animate({ height: options.height }, options.speedUp);	
+				$this.find('.showmore_trigger').on('click', '.less', function(){ 
+                    $(this).hide();
+                    $(this).prev().show();
+					$(this).parent().prev().animate({ height: options.height }, options.speedUp);	
 				});
             }		
 
