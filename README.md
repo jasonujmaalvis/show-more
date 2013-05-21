@@ -2,7 +2,7 @@
 
 Author: Jason Alvis<br />
 Author Email: alvis.jason@gmail.com<br />
-Version: 1.0<br />
+Version: 1.0.0<br />
 License: http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)<br />
 
 <h2>Brief</h2>
