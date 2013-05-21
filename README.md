@@ -3,7 +3,7 @@
 Author: Jason Alvis<br />
 Author Email: alvis.jason@gmail.com<br />
 Version: 1.0.0<br />
-License: GPL General Public License<br />
+License: Free General Public License (GPL)<br />
 
 <h2>Brief</h2>
 A neat little plugin that allows you to show / hide content (toggle) on clicking a trigger. Useful for areas of a website with restricted space but you still want to show a lot of content. Typically used on text blocks where you reveal a small portion of the text and show more on clicking a trigger.
