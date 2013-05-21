@@ -20,7 +20,7 @@
   "licenses": [
     {
       "type": "GPL",
-      "url": "https://github.com/jstayton/jquery-manifest/blob/master/LICENSE-GPL"
+      "url": "https://github.com/jasonalvis/jquery-showmore/blob/master/LICENSE-GPL"
     }
   ],
   "dependencies": {
