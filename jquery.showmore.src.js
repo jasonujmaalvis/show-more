@@ -1,9 +1,9 @@
 /*
- * Showmore jQuery Plugin
+ * Show More jQuery Plugin
  * Author: Jason Alvis
  * Author Site: http://www.jasonalvis.com
  * License: Free General Public License (GPL)
- * Version: 1.0.3
+ * Version: 1.0.4
  * Date: 21.05.2013
  */
 (function($) {
@@ -35,14 +35,14 @@
 				$this.append('<div class="showmore_trigger"><span>' + options.showText + '</span></div>')
 											
 				// Showmore going down
-				$this.find('.showmore_trigger').live('click', function (){
+				$this.find('.showmore_trigger').on('click', function (){
 					$(this).addClass('less');
 					$(this).find('span').text( options.hideText );
 					$(this).parent().find('.showmore_content').animate({ height: $showMoreOrgHeight }, options.speedDown);
 				});
 											
 				// Showmore going up
-				$this.find('.showmore_trigger.less').live('click', function(){ 
+				$this.find('.showmore_trigger.less').on('click', function(){ 
 					$(this).removeClass('less');
 					$(this).find('span').text( options.showText );
 					$(this).parent().find('.showmore_content').animate({ height: options.height }, options.speedUp);	
@@ -57,19 +57,17 @@
 /* 
  
 BASIC USAGE
-(function($) {
-     $(document).ready(function() {
+$(document).ready(function() {
      	
-	  	$('.showmore').showMore({
-			speedDown: 300,
-	        speedUp: 300,
-	        height: '165px',
-	        showText: 'Show more',
-	        hideText: 'Show less'
-	    });
+    $('.showmore').showMore({
+		speedDown: 300,
+	    speedUp: 300,
+	    height: '165px',
+	    showText: 'Show more',
+	    hideText: 'Show less'
+	});
 	      
-     });
-})(jQuery);
+});
 
 DEFAULT STYLES, ADD TO YOUR CSS
 .showmore_content		{ position:relative; overflow:hidden; }			

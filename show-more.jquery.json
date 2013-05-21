@@ -1,6 +1,6 @@
 {
   "name": "show-more",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "title": "Show More",
   "description": "A jQuery plugin that shows and hides content with a click event.",
   "keywords": [
