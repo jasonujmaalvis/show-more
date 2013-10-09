@@ -3,7 +3,7 @@
  * Author: Jason Alvis
  * Author Site: http://www.jasonalvis.com
  * License: Free General Public License (GPL)
- * Version: 1.0.4
+ * Version: 1.0.5
  * Date: 21.05.2013
  */
 (function($) {
