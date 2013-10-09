@@ -3,7 +3,7 @@
  * Author: Jason Alvis
  * Author Site: http://www.jasonalvis.com
  * License: Free General Public License (GPL)
- * Version: 1.0.5
+ * Version: 1.0.4
  * Date: 21.05.2013
  */
 (function($) {
@@ -33,15 +33,12 @@
 											
 				// Append the showmore trigger within the showmore div			
 				$this.append('<div class="showmore_trigger"><span class="more">' + options.showText + '</span><span class="less" style="display:none;">' + options.hideText + '</span></div>')
-				
-				// Getting the height of "show more" or "show less"
-				$showMoreTriggerHeight = $this.find('span.more').height();
 											
 				// Showmore going down
 				$this.find('.showmore_trigger').on('click', '.more', function (){
                     $(this).hide();
                     $(this).next().show();
-					$(this).parent().prev().animate({ height: $showMoreOrgHeight + $showMoreTriggerHeight}, options.speedDown); // Adding the trigger height to the height attribute
+					$(this).parent().prev().animate({ height: $showMoreOrgHeight }, options.speedDown);
 				});
 											
 				// Showmore going up
