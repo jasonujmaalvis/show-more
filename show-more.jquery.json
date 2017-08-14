@@ -19,8 +19,8 @@
   "bugs": "https://github.com/jasonalvis/jquery-show-more/issues",
   "licenses": [
     {
-      "type": "GPL",
-      "url": "https://github.com/jasonalvis/jquery-show-more/blob/master/LICENSE-GPL"
+      "type": "MIT",
+      "url": "https://github.com/jasonalvis/jquery-show-more/blob/master/LICENSE"
     }
   ],
   "dependencies": {
