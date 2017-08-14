@@ -1,11 +1,11 @@
-#Show More
+# Show More
 
-##Brief
+## Brief
 A neat little plugin that allows you to show / hide content (toggle) on clicking a trigger. Useful for areas of a website with restricted space but you still want to show a lot of content. Typically used on text blocks where you reveal a small portion of the text and show more on clicking a trigger.
 
 Very easy to implement please follow the instructions below. You can check it out over on js fiddle http://jsfiddle.net/pnfh3/2/ there is also a demo included in the zip.
 
-###HTML
+### HTML
 
 ```html
 <div class="showmore">
@@ -15,7 +15,7 @@ Very easy to implement please follow the instructions below. You can check it ou
 </div>
 ```
 
-###jQuery
+### jQuery
 
 Add the following code to your JavaScript file typically on a document.ready:
 
@@ -33,7 +33,7 @@ $(document).ready(function() {
 });
 ```
 
-###Minimum CSS styles
+### Minimum CSS styles
 
 To ensure consistency across multiple browsers please ensure the showmore block has a line-height specified. This will then provide an accurate height and display correctly.
 
